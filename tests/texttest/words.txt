@@ -1,0 +1,10 @@
+apple
+banana
+fruits
+waterfall
+human
+species
+artificial
+intelligence
+neural
+networks
