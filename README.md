@@ -1,5 +1,6 @@
 # NeuAug: Machine Learning Augmentation
 
+!()[logo.png]
 Ever feel that your dataset is too less? Use neuaug to generate some augmented data for your image processing or natural language processing needs
 
 ## Requirements
