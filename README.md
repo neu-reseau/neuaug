@@ -9,6 +9,7 @@ Ever feel that your dataset is too small? Use neuaug to generate some augmented 
 
 - Python 3.6+
 - PIL
+- googletrans
 
 ## Usage
 
