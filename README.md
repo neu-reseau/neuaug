@@ -17,12 +17,12 @@ Ever feel that your dataset is too small? Use neuaug to generate some augmented 
 Run the image augmentation script from the command line with the following syntax:
 
 ```
-python image_augment.py <folder of jpg images> <output folder> <number of augmented copies>
+python imgaug.py <folder of jpg images> <output folder> <number of augmented copies>
 ```
 
 Example:
 ```
-python image_augment.py input_images augmented_images 5
+python imgaug.py input_images augmented_images 5
 ```
 
 This command will:
@@ -35,12 +35,12 @@ This command will:
 Run the word augmentation script from the command line with the following syntax:
 
 ```
-python word_augment.py <input .txt file> <output .txt file> <number of augmented words for each word>
+python textaug.py <input .txt file> <output .txt file> <number of augmented words for each word>
 ```
 
 Example:
 ```
-python word_augment.py input_words.txt augmented_words.txt 5
+python textaug.py input_words.txt augmented_words.txt 5
 ```
 
 This command will:
