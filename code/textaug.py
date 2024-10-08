@@ -1,6 +1,7 @@
 import sys
 import random
 import string
+from googletrans import Translator
 
 def shift_one_letter(word):
     if len(word) < 2:
@@ -41,6 +42,17 @@ def remove_letter(word):
     i = random.randint(0, len(word) - 1)
     return word[:i] + word[i+1:]
 
+def translate_and_back(word):
+    translator = Translator()
+    languages = ['fr', 'de', 'es', 'it', 'pt'] 
+    target_lang = random.choice(languages)
+    try:
+        translated = translator.translate(word, dest=target_lang).text
+        back_translated = translator.translate(translated, dest='en').text
+        return back_translated.lower()
+    except:
+        return word 
+
 def augment_word(word):
     augmentations = [
         shift_one_letter,
@@ -48,7 +60,8 @@ def augment_word(word):
         exchange_two_letters,
         exchange_one_letter,
         double_letter,
-        remove_letter
+        remove_letter,
+        translate_and_back
     ]
     return random.choice(augmentations)(word.lower())
 
