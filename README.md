@@ -49,3 +49,20 @@ This command will:
 2. Create 5 augmented versions of each word
 3. Save the original and augmented words in `augmented_words.txt`
 
+### Speech Augmentation
+
+Run the speech augmentation script from the command line with the following syntax:
+
+```
+python speechaug.py <folder of audio files> <output folder> <number of augmented copies>
+```
+
+Example:
+```
+python speechaug.py input_audio augmented_audio 5
+```
+
+This command will:
+1. Read all audio files from the `input_audio` folder
+2. Create 5 augmented copies of each audio file
+3. Save the augmented audio files in the `augemented_audio` folder
