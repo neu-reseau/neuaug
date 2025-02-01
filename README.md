@@ -15,7 +15,7 @@ Ever feel that your dataset is too small? Use neuaug to generate some augmented 
 
 ### Image Augmentation
 
-Run the image augmentation script from the command line with the following syntax:
+Run the image augmentation script from the command line with the following syntax:-
 
 ```
 python imgaug.py <folder of jpg images> <output folder> <number of augmented copies>
@@ -33,7 +33,7 @@ This command will:
 
 ### Word Augmentation
 
-Run the word augmentation script from the command line with the following syntax:
+Run the word augmentation script from the command line with the following syntax:-
 
 ```
 python textaug.py <input .txt file> <output .txt file> <number of augmented words for each word>
@@ -51,7 +51,7 @@ This command will:
 
 ### Speech Augmentation
 
-Run the speech augmentation script from the command line with the following syntax:
+Run the speech augmentation script from the command line with the following syntax:-
 
 ```
 python speechaug.py <folder of audio files> <output folder> <number of augmented copies>
